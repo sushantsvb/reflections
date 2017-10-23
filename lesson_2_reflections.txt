@@ -17,7 +17,11 @@ What value do you think it offers?
 
    the only thing i have understood about the staging area is that the files added to it 
    will make one commit after commiting them to the repository.
-   staging area does not store any versions of the files
+   staging area does not store any versions of the files.
+   the repository is where the commits made up of different version of the same file
+   are stored after finalizing the small changes in the files.
+   
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
