@@ -1,0 +1,34 @@
+What happens when you initialize a repository? Why do you need to do it?
+   
+   any directory is not tracked down by git automatically.
+   it will only be tracked for changes when we want the directory to be tracked down.
+   in order to start tracking the files in the directory for changes that are made to it we have to give
+   such orders to git. the command for tracking the directory is git init.
+   when we run git init command what happens is that in the directory a git repository is initialized.
+   git can see that there are untracked files in the directory.
+
+   in order to track different versions of the files we have to initialize a git repository in the directory 
+   in which we want to track the files. this is done using the command 'git init'.
+   
+   
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+   the only thing i have understood about the staging area is that the files added to it 
+   will make one commit after commiting them to the repository.
+   staging area does not store any versions of the files
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
