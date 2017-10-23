@@ -1,0 +1,87 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Comparing two files using diff command helps us locate the changes that are
+    made in the file. if the code written in one file was running properly and 
+    after changing some part in code the program is behaving weirdly then there
+    is some unwanted changes that are introduced in the code. using diff command
+    we can locate the bug which is causing problem.
+    the bug is easy to find using diff as compared to finding it manually 
+    because we will be shown only that part of code in which some changes are made.
+    so bug location becomes easy task.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    the code that we are writing may contain 1000s of lines of code.
+    while developing the code i may like to change some part of code
+    to see what will be the consequences.
+    i would like to optimize the code, so for that i may change some part
+    of the code many a times.
+    sometimes the change that i made may lead to unwanted behaviour of the
+    program.
+    to revert back to the original properly running code i would like to have
+    access to that code. 
+    having access to entire history of code will make me more confident to 
+    test different things on my code because even if i introduce some bug
+    in the code i can easily correct the mistake by reverting back to the old 
+    bug less code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    the pros of manually choosing to create a commit is that we can decide when to
+    create a commit.
+    we can create a commit after one logical change is made.
+    so due to this each commit that is made will only reflect a small logical change 
+    than the another commit.
+    these way it becomes easier to compare the two commits in case of any issue in the 
+    running of program, since the difference in two files will be very less
+    but when the versions of the file are automatically saved, it may create unwanted 
+    versions which does not reflect much change logically.
+    so the list of versions may become too large unneccessarily.
+    but one advantage of automatic saving is that every small change in the file is recorded
+    which may be sometimes required.
+    the disadvantage of manual commit is that sometimes the user may forget to make a 
+    commit after a logical chane is made. so there is a possibility of human error in 
+    manual commits more than the automatic saving.
+
+    
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    using git log we can see all the commits made in order.
+    the commits have a unique commit id associated with it.
+    each commit has a message representing the changes made to it.
+    in order to know changes made to a given commit wrt to a previous commit 
+    we can use command git diff commit_1 commit_2.
+    on entering these command we get a comparison of two files
+    only those lines of codes are shown which are changed.
+    lines deleted from previous files are showing in red with a preceding - sign.
+    lines added top the file are shown in + sign preceding the added line.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    now, with the tool of version control in my hand, i can easily experiment with
+    my code from a previous level without affecting the other code.
+    with so much flexibility for experimenting i only need to concentrate my 
+    attention on developing my code. the tracking work is efficiently handled by 
+    the version control 'GIT'
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    i want to use git to try to understand the firmware of esp8266-01 developed
+    by my company.
+    also i will use git for my own projects and now i will practice coding even more because 
+    now i have a tool to take care of changes that i will do in project.
+    and as said earlier i dont need to keep track of changes. the only thing i need to focus on 
+    is developing the project.
+    the rest is taken care by the git.
