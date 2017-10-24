@@ -20,6 +20,10 @@ What value do you think it offers?
    staging area does not store any versions of the files.
    the repository is where the commits made up of different version of the same file
    are stored after finalizing the small changes in the files.
+   the working directory is just like ordinary directory where our files are stored.
+   in a working directory where git repository is initialized the files will be tracked down by git.
+   but in order to save that version of file we have to add them to staging area
+   and then commit them.
    
 
 
