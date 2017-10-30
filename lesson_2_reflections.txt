@@ -33,6 +33,13 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+   in some conditions it may happen that i may need to introduce some additional features in my code
+   and i may not be sure wheather it will be good or not. still i would be wanting to experiment 
+   the changes in the code without creating problem for my original code.
+   in such cases creating a different branch for such changes will be a helpful thing to do.
+   by creating branches we can experiment our code seperately on different branch without affecting the original code
+   
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
