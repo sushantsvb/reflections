@@ -38,6 +38,9 @@ organized? How would branches help?
    the changes in the code without creating problem for my original code.
    in such cases creating a different branch for such changes will be a helpful thing to do.
    by creating branches we can experiment our code seperately on different branch without affecting the original code
+   i may also sometimes want to introduce two totally different kind of features in my originally bug free working code
+   at such times its vry beneficial to create two different branches where i can experiment with the features 
+   efficiently without getting confused.
    
 
 How do the diagrams help you visualize the branch structure?
